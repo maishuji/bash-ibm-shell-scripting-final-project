@@ -39,11 +39,13 @@ echo "backupFileName -> ${backupFileName}"
 # To make things easier, we will define some useful variables...
 
 # [TASK 5]
-origAbsPath=``
+origAbsPath=$(pwd)
+echo "origAbsPath -> ${origAbsPath}"
 
 # [TASK 6]
-cd # <-
-destDirAbsPath=``
+cd ${destinationDirectory} # <-
+destDirAbsPath=$(pwd)
+echo "destDirAbsPath -> ${destDirAbsPath}"
 
 # [TASK 7]
 cd # <-
