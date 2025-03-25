@@ -51,3 +51,5 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX01
 ##### Task 9: Write command to return ll files and directories in the current folder
 ##### Task 10: Check whether the file was modified within the last 24 hours
 ##### Task 11: If is satisfied, add the file to the backup
+##### Task 12: Create a tar.gz file with the files that were modified in the last 24 hours
+##### Task 13: Move the tar.gz file to the destination directory

@@ -72,7 +72,9 @@ done
 echo "Files to backup -> ${toBackup[@]}"
 
 # [TASK 12]
+tar -czvf $backupFileName ${toBackup[@]}
 
 # [TASK 13]
+mv $backupFileName ${destDirAbsPath}
 
 # Congratulations! You completed the final project for this course!
