@@ -24,7 +24,8 @@ echo "targetDirectory -> ${targetDirectory}"
 echo "destinationDirectory -> ${destinationDirectory}"
 
 # [TASK 3]
-currentTS=``
+currentTS=$(date +%s%3N)
+echo "currentTS -> ${currentTS}"
 
 # [TASK 4]
 backupFileName=""
