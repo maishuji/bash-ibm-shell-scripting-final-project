@@ -58,14 +58,18 @@ echo "yesterdayTS -> ${yesterdayTS}"
 
 declare -a toBackup
 
-for file in $() # [TASK 9]
+for file in $(ls) # [TASK 9]
 do
   # [TASK 10]
-  if (())
+  fileTS=$(date -r ${file} +%s) # <- Retrieve last modified time of file
+  if (($fileTS > $yesterdayTS))
   then
     # [TASK 11]
+    echo "Modified content detected for file -> ${file}"
+    toBackup+=(${file})
   fi
 done
+echo "Files to backup -> ${toBackup[@]}"
 
 # [TASK 12]
 

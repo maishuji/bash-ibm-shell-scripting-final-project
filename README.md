@@ -47,4 +47,7 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX01
 ##### Task 5: Define `oriAbsPath` as the absolute path of thecurrent directory
 ##### Task 6: Define `destAbsPath` as the absolute path of the destination directory
 ##### Task 7: Change directory to target directory
-##### Task 8: Define variable with timestamp of yesterday ( - 24h)
+##### Task 8: Define variable with timestamp of yesterday ( today - 24 hours )
+##### Task 9: Write command to return ll files and directories in the current folder
+##### Task 10: Check whether the file was modified within the last 24 hours
+##### Task 11: If is satisfied, add the file to the backup
