@@ -46,3 +46,5 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX01
 ##### Task 4: Define the backupFileName as "backup-[$currentTS].tar.gz"
 ##### Task 5: Define `oriAbsPath` as the absolute path of thecurrent directory
 ##### Task 6: Define `destAbsPath` as the absolute path of the destination directory
+##### Task 7: Change directory to target directory
+##### Task 8: Define variable with timestamp of yesterday ( - 24h)

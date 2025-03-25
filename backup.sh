@@ -48,11 +48,13 @@ destDirAbsPath=$(pwd)
 echo "destDirAbsPath -> ${destDirAbsPath}"
 
 # [TASK 7]
-cd # <-
-cd # <-
+cd  ${origAbsPath} # <-
+cd ${targetDirectory} # <-
+echo "checkpoint pwd -> $(pwd)"
 
 # [TASK 8]
-yesterdayTS=
+yesterdayTS=$(($currentTS - 24 * 60 * 60))
+echo "yesterdayTS -> ${yesterdayTS}"
 
 declare -a toBackup
 
