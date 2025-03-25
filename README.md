@@ -30,17 +30,19 @@ You will need to submit the following items for peer review:
 Full details are provided for each task within the hands-on lab.
 
 
-## Instructions
+#### Detailed steps
 
-### Task 0: Getting started
+##### Task 0: Getting started
 + Download the template file `backup.sh` when the following command:
 ```bash
 wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/Final%20Project/backup.sh
 ```
 
-### Task 1: Code readabilty
+##### Task 1: Code readabilty
 + Set `targetDirectory` to the first command line argument
 + Set `destinationDirectory` to the second command line argument 
-### Task 2: Display the two command line arguments
-### Task 3: Define the variable currentTS as the current timestamp in seconds.
-### Task 4: Define the backupFileName as "backup-[$currentTS].tar.gz"
+##### Task 2: Display the two command line arguments
+##### Task 3: Define the variable currentTS as the current timestamp in seconds.
+##### Task 4: Define the backupFileName as "backup-[$currentTS].tar.gz"
+##### Task 5: Define `oriAbsPath` as the absolute path of thecurrent directory
+##### Task 6: Define `destAbsPath` as the absolute path of the destination directory
