@@ -28,3 +28,12 @@ You will need to submit the following items for peer review:
     Your completed script file
 
 Full details are provided for each task within the hands-on lab.
+
+
+## Instructions
+
+### Task 0: Getting started
++ Download the template file `backup.sh` when the following command:
+```bash
+wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/Final%20Project/backup.sh
+```
