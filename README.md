@@ -53,3 +53,19 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX01
 ##### Task 11: If is satisfied, add the file to the backup
 ##### Task 12: Create a tar.gz file with the files that were modified in the last 24 hours
 ##### Task 13: Move the tar.gz file to the destination directory
+
+
+##### Task 14: Download the script
+##### Task 15: Check executable
++ `ls -l backup.sh`
+##### Task 16: Download the following `.zip` file with `wget` :
++ `wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/Final%20Project/important-documents.zip`
++ unzip the file : `unzip -DDo important-documents.zip`
++ update the file' s last modified to now : `touch important-documents/*`
++ test the script : `./backup.sh important-documents .`
+##### Task 17: Set a cronjob to run the script for every 1 minutes
++ Add in `crontab -e` the entry `*/1 * * * * /usr/local/bin/backup.sh /home/project/important-documents /home/project`
++ `sudo service cron start`
++ `sudo service cron stop`
++ Using crontab, scehdule `usr/local/bin/backup.sh` script to backup the `important-documents` folder every 24 hours to the directory `/home/project`
++ Check the output of `crontab -l`
